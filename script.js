@@ -5,14 +5,14 @@ const menuButton = document.querySelector(".menu-button");
 const toast = document.querySelector(".toast");
 
 const cidadesData = [
-  { cidade: "São Paulo", denuncias: 3245 },
-  { cidade: "Rio de Janeiro", denuncias: 2180 },
-  { cidade: "Belo Horizonte", denuncias: 1560 },
-  { cidade: "Brasília", denuncias: 1320 },
-  { cidade: "Curitiba", denuncias: 980 },
-  { cidade: "Porto Alegre", denuncias: 850 },
-  { cidade: "Salvador", denuncias: 720 },
-  { cidade: "Fortaleza", denuncias: 688 }
+  { cidade: "Plano Piloto", denuncias: 3245 },
+  { cidade: "Taguatinga", denuncias: 2180 },
+  { cidade: "Ceilândia", denuncias: 1560 },
+  { cidade: "Águas Claras", denuncias: 1320 },
+  { cidade: "Sudoeste/Octogonal", denuncias: 980 },
+  { cidade: "Samambaia", denuncias: 850 },
+  { cidade: "Gama", denuncias: 720 },
+  { cidade: "Santa Maria", denuncias: 688 }
 ];
 
 const infracoesData = [

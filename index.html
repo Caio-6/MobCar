@@ -10,21 +10,24 @@
 <body>
   <header class="site-header">
     <div class="container header-content">
-      <a class="brand" href="#inicio" data-route>Mobcar</a>
-      <button class="menu-button" type="button" aria-label="Abrir menu" aria-controls="menu-principal" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
-        <a href="#inicio" data-route>Início</a>
-        <a href="#projeto" data-route>Projeto</a>
-        <a href="#estatisticas" data-route>Estatísticas</a>
-        <a href="#denunciar" data-route>Denunciar</a>
-        <a href="#planos-api" data-route>Planos API</a>
-      </nav>
-    </div>
-  </header>
+     <a class="brand" href="#inicio" data-route>
+      <img src="image/logo.png" alt="Logo Mobcar" style="height: 50px; width: auto; display: block;">
+    </a>
+    
+    <button class="menu-button" type="button" aria-label="Abrir menu" aria-controls="menu-principal" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
+      <a href="#inicio" data-route>Início</a>
+      <a href="#projeto" data-route>Projeto</a>
+      <a href="#estatisticas" data-route>Estatísticas</a>
+      <a href="#denunciar" data-route>Denunciar</a>
+      <a href="#planos-api" data-route>Planos API</a>
+    </nav>
+  </div>
+</header>
 
   <main>
     <section class="page is-active" id="inicio" data-page>
@@ -53,8 +56,8 @@
             <span>Denúncias Registradas</span>
           </article>
           <article>
-            <strong>87</strong>
-            <span>Cidades Atendidas</span>
+            <strong>35</strong>
+            <span>Regiões Administrativas</span>
           </article>
           <article>
             <strong>94%</strong>
@@ -151,11 +154,11 @@
           </article>
           <article class="summary-card brown">
             <div>
-              <span>RA's Atendidas</span>
-              <strong>87</strong>
+              <span>Regiões Administrativas</span>
+              <strong>35</strong>
             </div>
             <span class="chart-icon location" aria-hidden="true"></span>
-            <small>↑ 5 novas RA's</small>
+            <small>↑ 5 novas RAs</small>
           </article>
           <article class="summary-card blue">
             <div>
@@ -168,8 +171,8 @@
         </div>
 
         <article class="card chart-card">
-          <h2>Ranking de RA's com Mais Denúncias</h2>
-          <div class="bar-chart" aria-label="Gráfico de denúncias por RA"></div>
+          <h2>Ranking das RAs com Mais Denúncias</h2>
+          <div class="bar-chart" aria-label="Gráfico de denúncias por cidade"></div>
         </article>
 
         <div class="two-col">
@@ -243,16 +246,16 @@
               </label>
             </div>
             <label class="field">
-              <span>RA *</span>
+              <span>Estado *</span>
               <select name="estado" required autocomplete="address-level1">
-                <option value="">RA</option>
-                <option>Plano Piloto</option>
-                <option>Aguas Claras</option>
-                <option>Taguatinga</option>
-                <option>Ceilândia</option>
-                <option>Planaltina</option>
-                <option>Santa Maria</option>
-                <option>Sobradinho</option>
+                <option value="">Estado</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Minas Gerais</option>
+                <option>Rio Grande do Sul</option>
+                <option>Paraná</option>
+                <option>Bahia</option>
+                <option>Santa Catarina</option>
               </select>
               <small class="error"></small>
             </label>
